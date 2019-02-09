@@ -29,5 +29,6 @@ function submitAnswers() {
   var results = document.querySelector('#results');
   results.innerHTML = '<h3>You scored <span>'+score+'</span> out of <span>'+total+'</span></h3>'
   alert('You Scored '+score+' out of '+total);
+  
   return false;
 }
